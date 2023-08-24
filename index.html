@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Guess the Number Game</title>
+</head>
+<body>
+    <h1 class="title">Guess the Number</h1>
+    <div class="main-container">
+        <div class="main-menu" id="menu">
+            <h3>Select Range</h3>
+            <div class="range-selector-container">
+                <button id="range1-btn" title="1 life only">1-10</button>
+                <button id="range2-btn" title="5 lives only">1-50</button>
+                <button id="range3-btn" title="10 lives only">1-100</button>
+            </div>
+        </div>
+        <div class="ui-container" id="ui">
+            <div class="attempt-display-container" id="attempt">
+                <p>Attempts Left: </p>
+            </div>
+            <div class="display-container">
+                <h1 class="random-number" id="random-number-holder"></h1>
+            </div>
+            <div class="display-container">
+                <input type="number" class="user-guess" id="user-guess-holder" value="">
+            </div>
+            <div class="display-container">
+                <button class="enter-button" id="enter-guess-btn">Enter</button>
+            </div>
+            <div class="display-container">
+                <button class="reroll-button" id="reroll-guess-btn">Re-roll</button>
+            </div>
+            <div class="display-container">
+                <p class="score-board" id="score">Score: 0</p>
+            </div>
+            <div class="display-container">
+                <button class="exit-button" id="exit-btn">Exit</button>
+            </div>
+        </div>
+    </div>
+    <div class="social-media-container">
+        <a href="https://www.tiktok.com/@reniel.x" class="social-media" id="tiktok"><img src="Social Media Icons\tik-tok.png" alt=""></a>
+        <a href="https://www.instagram.com/rxnl.9/" class="social-media" id="instagram"><img src="Social Media Icons\instagram.png" alt=""></a>
+        <a href="https://discordapp.com/users/1015471109187059712" class="social-media" id="discord"><img src="Social Media Icons\discord.png" alt=""></a>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

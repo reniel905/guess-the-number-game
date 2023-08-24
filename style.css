@@ -1,0 +1,210 @@
+* {
+    border: 0;
+    margin: 0;
+    outline: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+
+    background-color: #793FDF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+
+
+}
+
+body .title {
+
+    text-align: center;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+
+}
+
+
+.main-container {
+
+    height: auto;
+    width: 200px;
+    background-color: #FFFD8C;
+    border-radius: 16px;
+    box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.50);
+    padding: 20px;
+}
+
+.ui-container {
+
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.attempt-display-container p {
+
+    text-align: right;
+
+}
+
+.display-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+
+}
+
+.display-container .enter-button {
+
+
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #7091F5;
+    color: white;
+    box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.50);
+}
+
+.display-container .enter-button:hover {
+
+    background-color: white;
+    color: black;
+    animation-timing-function: ease-in-out;
+
+
+}
+
+.display-container .enter-button:active {
+
+    box-shadow: none;
+    translate: 5px 5px;
+
+}
+
+.display-container .enter-button:disabled {
+
+    color: black;
+    background-color: gray;
+    box-shadow: none;
+    translate: 0px 0px;
+    cursor: not-allowed;
+    
+
+}
+
+.display-container .reroll-button {
+
+    display: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: transparent;
+    color: black;
+
+}
+
+.display-container .exit-button {
+
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: transparent;
+    color: black;
+
+}
+
+.display-container .user-guess {
+
+    overflow: hidden;
+    background-color: transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 50px;
+    text-align: center;
+    outline: 1px solid black;
+    padding: 6px;
+
+}
+
+.display-container .user-guess:focus {
+
+    outline: 1px solid red;
+
+}
+
+.main-menu {
+
+    margin: 10px;
+
+}
+
+.main-menu h3{
+
+    text-align: center;
+
+}
+
+.range-selector-container {
+
+
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+.range-selector-container button {
+
+    background-color: transparent;
+    outline: 1px solid black;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.50);
+    cursor: pointer;
+}
+
+
+.range-selector-container button:hover{
+
+
+    background-color: #97FFF4;
+    transform: scale(1.1);
+    box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.50);
+
+}
+
+.range-selector-container button:active{
+
+    transform: scale(1.0);
+    box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.50);
+
+}
+
+.social-media-container{
+
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    margin: 50px;
+
+}
+
+.social-media-container .social-media img {
+
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+
+}
